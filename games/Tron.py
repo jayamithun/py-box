@@ -25,7 +25,7 @@ player_2xy = vector(100, 0)
 player_2aim = vector(-4, 0)
 player_2body = set()
 
-#   Functions
+
 # Return True if head inside screen
 def inside(head):
     return -200 < head.x < 200 and -200 < head.y < 200
@@ -59,7 +59,7 @@ t.hideturtle()
 t.tracer(False)
 t.listen()
 
-# Set Keyboard Controls
+# Setting Keyboard Controls
 t.onkey(lambda: player_1aim.rotate(90), 'a')
 t.onkey(lambda: player_1aim.rotate(-90), 'd')
 t.onkey(lambda: player_2aim.rotate(90), 'j')
