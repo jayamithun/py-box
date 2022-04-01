@@ -1,6 +1,3 @@
-# This game is from the official documentation of freegames
-# https://pypi.org/project/freegames/
-
 # pip install freegames
 
 # Tap on Screen to Fire
