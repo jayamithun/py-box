@@ -1,6 +1,3 @@
-# This game is from freeCodeCamp.org
-# https://www.freecodecamp.org/
-
 
 # pip install pygame
 # pip install numpy
